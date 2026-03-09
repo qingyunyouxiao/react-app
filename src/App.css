@@ -1,0 +1,34 @@
+/* 全局基础样式 */
+.App {
+  margin: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* 标题样式 */
+h1 {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* 列表样式 */
+.nav-list {
+  list-style-type: disc; /* 实心圆点列表项 */
+  margin-left: 40px; /* 列表缩进 */
+  padding: 0;
+}
+
+/* 列表项样式 */
+.nav-list li {
+  margin: 5px 0;
+}
+
+/* 链接样式 */
+.nav-list a {
+  color: #0000ee; /* 经典蓝色链接色 */
+  text-decoration: underline;
+}
+
+/* 鼠标悬浮效果 */
+.nav-list a:hover {
+  color: #551a8b;
+}
