@@ -1,12 +1,12 @@
-## React 3
+## React 2
 
-继续学习，我觉得我可以。
+继续学习。
 
 **step 1**
 
 ```bash
-yarn create my-coffee my-coffee
-cd my-coffee
+yarn create coffee-app coffee-app
+cd coffee-app
 echo "SKIP_PREFLIGHT_CHECK=true" > .env
 yarn start
 ```
