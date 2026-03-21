@@ -1,38 +1,47 @@
+/* 全局基础样式 */
 .App {
-  text-align: center;
+  margin: 20px;
+  font-family: Arial, sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* 标题样式 */
+h1 {
+  font-weight: bold;
+  color: #2f4f4f;
+  margin-bottom: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* 列表样式 */
+.nav-list {  
+    margin-top: 10px;
+    list-style: none;
+    padding-left: 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+/* 列表项样式 */
+.nav-list li {
+  display: inline-block;
+}
+
+/* 链接样式 */
+.nav-list a {
   color: white;
+  background-color: #13a4a4;  /* 原始绿色 */
+  padding: 5px 15px;
+  border-radius: 2px;
+  text-decoration: none;
+  margin-right: 5px;
+  transition: all 0.3s ease;  /* 添加过渡效果 */
 }
 
-.App-link {
-  color: #61dafb;
+/* 选择器优先级 */
+.nav-list .feature {
+    background-color: orange;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* 鼠标悬浮效果 */
+.nav-list a:hover {
+  background-color: #8B4513;  /* 鼠标悬停时变为咖啡色 */
+  /* 可以添加轻微放大效果 */
+  transform: scale(1.05);
 }
